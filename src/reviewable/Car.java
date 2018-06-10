@@ -2,10 +2,12 @@ package reviewable;
 
 public class Car {
 	String brand, plate;
+	int speed;
 	
-	public Car(String brand, String plate) {
+	public Car(String brand, String plate, int speed) {
 		this.brand = brand;
 		this.plate = plate;
+		this.speed = speed;
 	}
 
 	public String getBrand() {
